@@ -1,0 +1,13 @@
+{
+  "name": "software-design-grpc-sample",
+  "private": true,
+  "author": "Yuku Kotani (yukukotani@gmail.com)",
+  "license": "Apache-2.0",
+  "scripts": {},
+  "devDependencies": {
+    "@types/node": "^18.16.3",
+    "tsx": "^3.12.7",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {}
+}
