@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package chat.v1;
+
+import "google/protobuf/timestamp.proto";
+
+service ChatService {
+  rpc Say(SayRequest) returns (SayResponse);
+}
+
+message SayRequest {
+  string sentence = 1;
+}
+
+message SayResponse {
+  string sentence = 1;
+  google.protobuf.Timestamp responded_at = 2;
+}
