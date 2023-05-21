@@ -1,0 +1,8 @@
+version: v1
+plugins:
+  - plugin: buf.build/bufbuild/es:v1.2.0 # protoc-gen-es
+    opt: target=ts
+    out: ./src/gen
+  - plugin: buf.build/bufbuild/connect-es:v0.8.6 # protoc-gen-connect-es
+    opt: target=ts
+    out: ./src/gen
