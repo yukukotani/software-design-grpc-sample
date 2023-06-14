@@ -1,6 +1,6 @@
-# Software Design2023 年 7 月号「gRPC で始める Web API 開発」サンプルコード
+# Software Design 2023年7月号「gRPC で始める Web API 開発」サンプルコード
 
-Software Design 2023 年 7 月号の特集「gRPC で始める Web API 開発」、第 4 章「gRPC による Web API の実装」のサンプルコードです。
+[Software Design 2023年7月号](https://gihyo.jp/magazine/SD/archive/2023/202307)の特集「gRPC で始める Web API 開発」、第4章「gRPC による Web API の実装」のサンプルコードです。
 
 ## 動作確認環境
 
